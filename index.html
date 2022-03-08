@@ -24,10 +24,10 @@
         <h1 class="header__title">BHROMAON</h1>
         <h2 class="header__slogan">Safe Travel Anywhere</h2>
       </div>
-      <div class="input">
-        <input type="text" placeholder="Search Your Travel Destination" class="input__area">
+      <form class="input" action="">
+        <input type="text" placeholder="Search Your Travel Destination"  minlength="2" name="search-input" class="input__area">
         <button type="button" class="button">SEARCH<span><i class="fa-solid fa-magnifying-glass"></i></span></button>
-      </div>
+      </form>
       <div class="scroll">
         <p class="scroll__text">Scroll Down</p>
         <i class="fa-solid fa-angle-down"></i>
@@ -35,7 +35,9 @@
     </section>
     <section class="nav-section">
       <nav class="nav">
-        <a href="#" class="logo">BHROMAON</a>
+        <div class="logo-div">
+          <a href="#" class="logo">BHROMAON</a>
+        </div>
         <div class="nav__div">
           <ul>
             <li><a href="#" class="nav__link">WHO WE ARE</a></li>
@@ -80,21 +82,23 @@
       </div>
     </section>
     <section class="first-booking">
-      <div class="box-container">
-      <div class="box box--one">
-        <p class="box__country">Spain</p>
-        <h4 class="box__heading">GRAND SPAIN MADRID</h4>
-        <p class="box__text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-        <button class="button button--third-btn">BOOK NOW</button>
+      <div class="first-booking__container">
+        <div class="box box--one">
+          <p class="box__country">Spain</p>
+          <h4 class="box__heading">GRAND SPAIN MADRID</h4>
+          <p class="box__text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+          <button class="button button--third-btn">BOOK NOW</button>
+        </div>
       </div>
-    </div>
     </section>
     <section class="second-booking">
-      <div class="box box--two">
-        <p class="box__country">Spain</p>
-        <h4 class="box__heading">GRAND SPAIN MADRID</h4>
-        <p class="box__text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
-        <button class="button button--fourth-btn">BOOK NOW</button>
+      <div class="second-booking__container">
+        <div class="box box--two">
+          <p class="box__country">Spain</p>
+          <h4 class="box__heading">GRAND SPAIN MADRID</h4>
+          <p class="box__text">But I must explain to you how all this mistaken idea of account to denouncing pleasure and praising pain was account  born and I account will give you a complete account of the system</p>
+          <button class="button button--fourth-btn">BOOK NOW</button>
+        </div>
       </div>
     </section>
     <section class="tourist-section">

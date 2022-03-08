@@ -145,9 +145,14 @@
   max-width: 1770px;
   min-height: 700px;
   display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+
+  &__container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
 }
 
 .box {
@@ -159,7 +164,6 @@
   display: flex;
   flex-direction: column;
   
-
   &__country {
     font-family: 'Josefin Sans', sans-serif;
     font-weight: 400;
@@ -193,11 +197,6 @@
   }
 }
 
-.box-container {
-  display: flex;
-  justify-content:space-between;
-}
-
 .button--third-btn {
   font-size: 16px;
   line-height: 26px;
@@ -207,14 +206,21 @@
   margin-left: 32px;
 }
 
-
-
 .second-booking {
   background-image: url(/images/background-image-4.png);
   background-size: cover;
   width: 100%;
   max-width: 1770px;
   min-height: 700px;
+  display: flex;
+  justify-content: flex-end;
+
+  &__container {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+  }
 }
 
 .button--fourth-btn {
