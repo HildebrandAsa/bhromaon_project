@@ -1,16 +1,122 @@
 * {
   margin: 0;
+  color: white;
 }
 
 .header {
-
   background-image: url(/images/background-image-1.png);
   background-size: cover;
+}
+
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  height: 100%;
+  min-height: 820px;
+
+  &__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 26px;
+    letter-spacing: 4.8px;
+    margin-top: 200px;
+    margin-bottom: 11px;
+  }
+
+  &__slogan {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 22px;
+    line-height: 26px;
+    letter-spacing: 6.82px;
+  }
+}
+
+.input {
+  display: flex;
+  width: 100%;
+  max-width: 653px;
+  margin-top: 48px;
+
+  &__area {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 26px;
+    letter-spacing: 2.8px;
+    text-align: center;
+    border: none;
+    width: 100%;
+    max-width: 653px;
+    color: rgba(153, 153, 153, 1);
+  }
+}
+
+.button {
+  background-color: #5474FD;
+  color: white;
+  border: 2px solid white;
+  width: 150px;
+  height: 63px;
+  font-family: 'Aleo', serif;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  letter-spacing: 1.4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.scroll {
+  display: flex;
+  flex-direction: column;
+  margin-top: 108px;
+  
+  &__text {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 2.8px;
+}
 }
 
 .nav-section {
   background-color: #5474FD;
 }
-.button {
-  background-color: #5474FD;
+
+.nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+
+  &__div {
+    display: flex;
+    flex-direction: row;
+  }
+
+  &__link {
+    text-decoration: none;
+    margin-right: 60px;
+  }
+}
+
+li {
+  list-style-type: none;
+}
+
+.logo {
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 26px;
+  letter-spacing: 2.4px;
 }
