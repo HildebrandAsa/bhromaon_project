@@ -5,6 +5,69 @@
 .choose-section {
   background-image: url(/images/background-image-2.png);
   background-size: cover;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  max-width: 1770px;
+  height: 100%;
+  min-height: 685px;
+}
+
+.choose-text {
+  display: flex;
+  flex-direction: column;
+
+  &__header {
+    font-family: 'Aleo', serif;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 26px;
+    margin-bottom: 50px;
+  }
+
+  &__text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 1.6px;
+    width: 100%;
+    max-width: 560px;
+    height: 100%;
+    min-height: 158px;
+    margin-bottom: 45px;
+  }
+}
+
+.choose-image {
+  display: flex;
+  flex-direction: column;
+
+  &__houseimg {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    min-height: 220px;
+    margin-left: 110px;
+    margin-bottom: 10px;
+  }
+  &__mountainimg {
+    width: 100%;
+    max-width: 350px;
+    height: 100%;
+    min-height: 220px;
+    margin-left: 200px;
+  }
+}
+
+.button--btn {
+  font-size: 16px;
+  line-height: 26px;
+  letter-spacing: 1.2px;
+  width: 100%;
+  max-width: 228px;
 }
 
 .icon-section {
@@ -14,11 +77,60 @@
 .first-booking {
   background-image: url(/images/background-image-3.png);
   background-size: cover;
+  width: 100%;
+  max-width: 1770px;
+  min-height: 700px;
+}
+
+.box {
+  background-color: #232323;
+  opacity: 0.9;
+  width: 100%;
+  max-width: 543px;
+  min-height: 374px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  &__country {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-top: 49px;
+    margin-bottom: 23px;
+    margin-left: 32px;
+  }
+  &__heading {
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 26px;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-bottom: 13px;
+    margin-left: 32px;
+  }
+  &__text {
+    font-size: 16px;
+    line-height: 26px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 1.5px;
+    color: #E8E8E8;
+    margin-bottom: 46px;
+    margin-left: 32px;
+  }
 }
 
 .second-booking {
   background-image: url(/images/background-image-4.png);
   background-size: cover;
+  width: 100%;
+  max-width: 1770px;
+  min-height: 700px;
 }
 
 .tourist-section {
