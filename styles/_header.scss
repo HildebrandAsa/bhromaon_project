@@ -15,6 +15,7 @@
   text-align: center;
   height: 100%;
   min-height: 820px;
+  justify-content: center;
 
   &__title {
     font-family: 'Josefin Sans', sans-serif;
@@ -22,7 +23,6 @@
     font-size: 48px;
     line-height: 26px;
     letter-spacing: 4.8px;
-    margin-top: 200px;
     margin-bottom: 11px;
   }
 
@@ -71,6 +71,9 @@
   justify-content: center;
 }
 
+.fa-magnifying-glass {
+  margin-left: 5px;
+}
 
 .scroll {
   display: flex;
@@ -93,13 +96,13 @@
   height: 80px;
   display: flex;
   align-items: center;
+  justify-content: center;
 }
 
 .nav {
   display: flex;
   flex-direction: row;
   align-items: center;
-  justify-content: space-around;
 
   &__div {
     display: flex;
@@ -116,10 +119,14 @@
   }
 }
 
+ul {
+  display: flex;
+  flex-direction: row;
+}
+
 li {
   list-style-type: none;
 }
-
 .logo {
   text-decoration: none;
   font-weight: bold;
